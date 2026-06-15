@@ -70,6 +70,13 @@ fvm flutter test
 fvm flutter build apk --debug
 ```
 
+## Android APK
+
+- 최신 APK: [app-release.apk](https://github.com/anotheranotherhoon/xrp_monitor_flutter_bloc_app/releases/download/v1.0.0%2B1/app-release.apk)
+- 릴리스 페이지: [v1.0.0+1](https://github.com/anotheranotherhoon/xrp_monitor_flutter_bloc_app/releases/tag/v1.0.0%2B1)
+- GitHub Actions는 `v*` 태그가 push되면 release APK를 빌드하고 GitHub
+  Release 자산으로 업로드합니다.
+
 ## Firebase Cloud Messaging
 
 관리자 대시보드에서 선택한 회원에게 발송한 FCM 푸시 알림을 수신합니다.
